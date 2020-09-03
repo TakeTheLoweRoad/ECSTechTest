@@ -13,7 +13,6 @@ Notice that there is no object in this array with the title "oliver" because oli
 */
 
 
-
 function createMenuData(data) {
   /*First we create an array of each parent that has at least one child, called parentsWithChildren. From that, we make a set (so each parent with at least one child appears in the set exactly once.) Finally, we create from this set an array called uniqueParents. As the name suggests, each parent with at least one child appears exactly once in the uniqueParents array*/
   var parentsWithChildren = new Array();
